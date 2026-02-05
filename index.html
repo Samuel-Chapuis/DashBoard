@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Git Activity Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+<header>
+  <div class="controls">
+    <div class="dropRow">
+      <div class="dropzone" id="dz1">
+        <strong>Dataset</strong>
+        <div class="muted">Using data/commits_history_cleaned.csv (click to select)</div>
+        <div class="filename" id="fn1">✓ commits_history_cleaned.csv</div>
+        <input id="file1" type="file" accept=".csv" hidden>
+      </div>
+    </div>
+
+  </div>
+  <div class="headerTitle">CentraleSupelec's Project activity comparator</div>
+</header>
+
+<div class="wrap">
+
+  <div class="left">
+    <p class="sectionTitle"><strong>People</strong> (profile | activity heatmap | nomenclature pie)</p>
+    <div class="people" id="people"></div>
+    <div id="peopleEmpty" class="empty">Load 3 CSVs to display the panels.</div>
+  </div>
+
+  <div class="right">
+    <div>
+      <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+        <button id="viewGitGraphs" class="chip" type="button">Git graphs</button>
+        <button id="viewCommitsPerDay" class="chip" type="button">Commits per day</button>
+      </div>
+      <p class="hint" style="margin: 8px 0;">Git graphs show commit ancestry per repository. Commits per day shows a grouped histogram by weekday and author.</p>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="card">
+      <div id="repoGraphsEmpty" class="empty">Loading repository graphs…</div>
+      <div id="repoGraphs"></div>
+      <div id="commitsPerDayEmpty" class="empty" style="display:none;">Loading commits per day…</div>
+      <svg id="commitsPerDayChart" style="display:none;"></svg>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+      <p class="sectionTitle">Comparative scatter plot (commits per day)</p>
+      <button id="scatterToggle" class="chip" type="button">Cumulative: Off</button>
+    </div>
+    <div class="card">
+      <div id="scatterEmpty" class="empty">Load 3 CSVs to display the chart.</div>
+      <svg id="scatter"></svg>
+    </div>
+  </div>
+
+  <div class="card full">
+    <p class="sectionTitle">Raw data (CSV)</p>
+    <p class="hint">Each row is one commit. Main columns: repo_full_name, sha, parent_shas, branch, author_name, commit_day, commit_hour, message_type/argument/message, nomenclature. The dashboard aggregates these fields per author, weekday, and repository.</p>
+    <div id="rawSample" class="rawSample"></div>
+  </div>
+</div>
+
+<script src="./js/constants.js"></script>
+<script src="./js/data.js"></script>
+<script src="./js/charts.js"></script>
+<script src="./js/ui.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>

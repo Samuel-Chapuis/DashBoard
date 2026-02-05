@@ -1,0 +1,292 @@
+\documentclass{article}
+
+\usepackage{charter} % Use the Charter font
+\usepackage{hyperref}
+\usepackage[a4paper,top=1in,bottom=1in,left=1in,right=1in]{geometry}
+\usepackage{graphicx} % For including images
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+
+% FANCYHDR SETTINGS
+\fancypagestyle{firstpage}{
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{1pt}
+  \fancyfoot[L]{Samuel Chapuis}
+  \fancyfoot[R]{Page \thepage}
+}
+
+\fancypagestyle{subsequentpages}{
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{1pt}
+  \renewcommand{\footrulewidth}{1pt}
+  \fancyfoot[L]{Samuel Chapuis}
+  \fancyfoot[R]{Page \thepage}
+}
+
+\AtBeginDocument{\thispagestyle{firstpage}}
+\pagestyle{subsequentpages}
+
+% No paragraph indentation, small skip
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+
+\begin{document}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+  \vspace{0pt}
+  \includegraphics[height=1.5cm]{logo.png}\hspace{0.3cm}
+  \bigskip
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+  \vspace{0pt}
+  \raggedleft
+  \today \\
+  Samuel Chapuis \\
+  BDMA - Master Student \\
+  \href{mailto:samuel.chapuis@student-cs.fr}{samuel.chapuis@student-cs.fr} 
+\end{minipage}
+
+% Horizontal rule across the full page
+\rule{\linewidth}{1pt}
+
+\begin{center}
+	\raggedleft
+	  {\LARGE \textbf{Personal Data Vis}} \\[0.5em] % Title: Large and Bold
+	  {\large BDM-02 - Visual Analytics} % Subtitle: Slightly smaller
+\end{center}
+
+%----------------------
+%  DATA
+%----------------------
+
+
+\section{Data Collection}
+
+\subsection*{Dataset description}
+This report summarizes a personal dataset extracted from my GitHub commit history. The dataset contains 459 records and 9 attributes (columns). Key columns include \texttt{repo\_full\_name}, \texttt{commit\_day}, \texttt{commit\_hour}, \texttt{message}, and \texttt{is\_merge}.
+
+\subsection*{What is the data about?}
+This dataset captures metadata about my software development activity on GitHub.
+Each row represents one commit event and includes the repository name, the commit date (day-level),
+the commit hour (UTC), whether the commit is a merge, and the raw commit message.
+Personally, this data reflects my work rhythm, focus across projects, and habits over time.
+
+\subsection*{Column names, data types, and data size}
+The table below lists the columns and their inferred data types:
+\begin{center}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.45\linewidth} >{\raggedright\arraybackslash}p{0.45\linewidth}}
+\toprule
+\textbf{Column} & \textbf{Dtype} \\
+\midrule
+\texttt{repo\_full\_name} & \texttt{object} \\
+\texttt{repo\_private} & \texttt{bool} \\
+\texttt{repo\_language} & \texttt{object} \\
+\texttt{repo\_stars} & \texttt{int64} \\
+\texttt{repo\_forks} & \texttt{int64} \\
+\texttt{commit\_day} & \texttt{object} \\
+\texttt{commit\_hour} & \texttt{int64} \\
+\texttt{message} & \texttt{object} \\
+\texttt{is\_merge} & \texttt{bool} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{Motivation \& Questions}
+I chose this dataset because I believe that my commit history can reveal interesting patterns about my overall work habits and productivity cycles.
+
+\begin{itemize}
+\item Am I more productive at certain times of day? 
+\item How much does the money matters in my work (private vs public repos)?
+\item Are my favorite programming languages reflected in my commit activity?
+\item Is there any seasonality (e.g., exam periods, internships) visible in the data?
+\item Was my life healthier when I was in the USA (comparing local commit time between France and California)?
+\end{itemize}
+
+\subsection*{Data collection process}
+The dataset was collected using a Python script that queries the GitHub API for repositories I own or contribute to
+and retrieves commit metadata since 2023. The script normalizes timestamps to derive \texttt{commit\_day} and
+\texttt{commit\_hour} (UTC), identifies merge commits through parent count, and writes a deduplicated CSV.
+Sensitive fields (e.g., emails, access tokens) were omitted to preserve privacy.
+
+Once collected, the dataset was cleaned and enriched through additional Python preprocessing steps.
+First, a temporal filter was introduced to distinguish commits made within a specific time window (January–June~2025).
+This binary variable, named \texttt{is\_in\_the\_USA}, was computed using a conditional statement.
+This step allows later comparisons between different phases of my activity, such as before, during, or after a specific period.
+
+Secondly, the raw \texttt{message} field from each commit was parsed into three semantic components using a custom
+regular-expression function called \texttt{split\_message}. This function separates the text that appears:
+\begin{itemize}
+  \item \emph{before parentheses} — indicating a possible action type or prefix (e.g., “fix”, “add”, “update”);
+  \item \emph{between parentheses} — capturing contextual tags (e.g., affected module, file, or feature);
+  \item \emph{after a colon or parentheses} — retaining the descriptive part of the message.
+\end{itemize}
+
+The extracted components were assigned to three new columns (\texttt{message\_type}, \texttt{message\_argument}, and
+\texttt{message\_message}), replacing the original raw message column. This transformation simplifies later text
+analysis and classification tasks, such as identifying recurring commit patterns or estimating coding effort.
+
+Overall, this two-step cleaning process makes the dataset more structured and interpretable while preserving
+its personal and chronological character.
+
+
+\subsection*{Next steps}
+The first exploratory charts already reveal interesting temporal patterns: one showing the concentration of commits by hour, another by weekday, and a third comparing repositories by activity volume.
+
+In a future iteration, I plan to expand the analysis by:
+\begin{itemize}
+  \item comparing activity across seasons or academic periods to detect productivity cycles (e.g., exams or internships);
+  \item analyzing the difference between personal and collaborative repositories;
+  \item classifying commits by type (\emph{feature}, \emph{fix}, or \emph{documentation}) using message keywords;
+  \item correlating repository language and commit frequency to observe shifts in focus across programming ecosystems;
+  \item integrating quantitative measures such as lines of code added or deleted to evaluate effort rather than frequency alone;
+  \item exploring time zones to distinguish local vs.\ remote work habits across projects.
+\end{itemize}
+
+These next steps would transform the dataset from a simple chronological record into a more complete reflection of my working patterns, project diversity, and long-term evolution as a developer.
+\subsection*{Notes on ethics and privacy}
+Only metadata required for the analysis is kept.
+The dataset does not include code content or private message bodies beyond commit messages,
+and it can be further anonymized by hashing repository names or redacting message text if needed.
+
+\subsection*{Bonus, Visisual insight with the dataset}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{images/hour_distribution.png}
+    \caption{Local hours of commit}
+\end{figure}
+
+This graph shows the commits distribution by hour in local time, however it is possible to have 1 or 2 hours of drift because I computed the local time from the UTC hour only, without taking into account the daylight saving time. Still it clearly shows that I tend to code late at night especially when I was in the USA where there is a lot of commits after 3 PM UTC (which is 8 PM in California).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/activity.png}
+    \caption{GitHub activity by repository}
+\end{figure}
+
+This graph is a reproduction of the GitHub contribution activity graph, showing the number of commits per day. It is possible to see a tendance of more activity over time with some peaks during rush periods like publications (may 2025). It is also possible to see a lower activity during vacation periods (june 2025 and 2024).
+
+%----------------------
+%  COLOR
+%----------------------
+
+\newpage
+
+\section{Choosing Colors}
+
+\subsection*{Categorical column}
+  For this color-design exercise, I chose the column \texttt{repo\_language}, which contains the main programming language of each repository.  
+  This variable is categorical and non-ordered, with about 5–7 dominant languages in my data.  
+  It is therefore ideal for a categorical color palette design task.
+
+\subsection*{Colorgorical Palettes}
+
+Two color palettes were generated using the \textbf{Colorgorical} tool (\url{http://vrl-v2.cs.brown.edu/color}).  
+Each palette was produced with 7 colors, corresponding to the top 7 languages in my dataset.  
+I experimented with different parameter values for \emph{Perceptual Distance}, \emph{Pair Preference}, and \emph{Hue Filtering}.
+
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[t]{0.48\textwidth}
+    \vspace{0pt}
+    \centering
+    \includegraphics[width=\linewidth]{images/color2.png}\\[0.6em]
+    {\small\textbf{Palette B}}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.48\textwidth}
+    \vspace{0pt}
+    \centering
+    \includegraphics[width=\linewidth]{images/color1.png}\\[0.6em]
+    {\small\textbf{Palette A}}
+  \end{minipage}
+\end{figure}
+
+
+\section*{3. Palette Evaluation}
+
+The two palettes were evaluated according to four criteria:  
+\textit{Distinctiveness}, \textit{Harmony}, \textit{Semantic Fit}, and \textit{Accessibility}.  
+The following table summarizes my observations.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{p{3cm}p{5.5cm}p{5.5cm}}
+\toprule
+\textbf{Criterion} & \textbf{Palette B} & \textbf{Palette A} \\
+\midrule
+\textbf{Distinctiveness} & 
+The colors are clearly distinguishable: all $\Delta E_{2000}$ values exceed 20, ensuring perceptual separation. Visual inspection confirms good category discrimination. &
+Some colors (green–yellow) show smaller $\Delta E$ values ($\approx$10–15), making certain pairs slightly less distinct. \\
+\textbf{Harmony} &
+Cool tones (blue–green) create a coherent, professional, and calm look consistent with tech-oriented visuals. &
+Warmer tones bring variety and contrast but appear less balanced overall. \\
+\textbf{Semantic Fit} &
+Blue evokes reliability (Python), green suggests growth or development (Kotlin, Go), and yellow fits front-end languages. &
+Colors chosen mainly for aesthetics; weaker semantic links between hues and categories. \\
+\textbf{Accessibility} &
+Simulated under deuteranopia and protanopia (Coblis): all hues remain distinguishable; two greens appear similar but separable. &
+Green-green confusion occurs under color blindness, reducing legibility. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[t]{0.48\textwidth}
+    \vspace{0pt}
+    \centering
+    \includegraphics[width=\linewidth]{images/eval_color2.png}\\[0.6em]
+    {\small\textbf{Palette B}}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.48\textwidth}
+    \vspace{0pt}
+    \centering
+    \includegraphics[width=\linewidth]{images/eval_color1.png}\\[0.6em]
+    {\small\textbf{Palette A}}
+  \end{minipage}
+  \caption{Confusion matrix for color}
+\end{figure}
+
+\section*{4. Applying the Chosen Palette}
+
+The selected palette (Palette B) was applied to visualize the number of commits per programming language.  
+Each color represents a distinct language category.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{images/comit_treemap.png}
+    \caption{Commits by language using the selected categorical palette.}
+\end{figure}
+
+The chart shows the distribution of commits per programming language in my GitHub dataset
+Each color encodes a unique language category using the custom palette generated through Colorgorical.  
+The palette was chosen to maximize perceptual distance while maintaining visual harmony through cool blue–green tones.  
+Accessibility testing confirmed that color distinctions remain clear under red–green color-blind conditions.  
+Color therefore effectively communicates categorical information in this dataset while preserving a balanced, professional aesthetic.
+
+\subsection*{Reflexion}
+Designing the palette through Colorgorical highlighted how perceptual metrics can guide visual clarity.  
+The tool’s “perceptual distance” parameter was especially helpful in maintaining $\Delta E_{2000}$ values above 20, ensuring that all colors remain distinct even for users with mild color vision deficiencies.
+
+The interface was intuitive, and generating multiple palettes was simple.  
+However, the main challenge was finding the right balance between \textit{aesthetic coherence} and \textit{functional clarity}.  
+Palettes with high perceptual distance often appear unbalanced or too contrasted, while those with closer hues look harmonious but reduce category distinction.
+
+Because my data represents programming languages, I also considered \textit{semantic fit}, for this I helped myself with the github color for the langages, where python is green, C is blue, Kotlin purple.
+
+For accessibility, both palettes were tested using the Coblis simulator.  
+Although Colorgorical ensures perceptual contrast, visual testing confirmed that subtle greens may still appear similar for deuteranopia users.  
+This underlines that accessibility validation requires both computational and perceptual evaluation.
+
+Overall, Colorgorical was highly effective for producing perceptually grounded palettes, but aesthetic and semantic adjustments still relied on human judgment.  
+The final palette achieves a satisfying trade-off between clarity, harmony, and inclusivity, demonstrating the practical balance between data-driven color selection and design intuition.
+
+\end{document}

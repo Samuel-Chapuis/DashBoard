@@ -1,0 +1,255 @@
+repo_full_name,sha,parent_shas,branch,author_name,commit_day,commit_hour,message_type,message_argument,message_message,nomenclature
+Samuel-Chapuis/CS-NFTM-Fork,cd9614e3052095d4d26f92e1a8ca1eb060a0589e,22c268669a903e17c328fc420053e5a84f8d29b9,TestAlex,aleexx02,2025-12-11,10,,,UPDATE main.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,6296690375a9c5c47cb110804fab94d57a09865f,22c268669a903e17c328fc420053e5a84f8d29b9,main,Lucia Fernandez,2025-12-11,17,update,reccurent_cnn -results  in ruche,Here are the results from the Ruche,0
+Samuel-Chapuis/CS-NFTM-Fork,22c268669a903e17c328fc420053e5a84f8d29b9,c29ff5d6e57e53bec8c72e90e7131645368c943a,main,aleexx02,2025-12-10,13,,,UPDATE Recurrent_CNN_1D_Burgers.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,c29ff5d6e57e53bec8c72e90e7131645368c943a,6b965997e05f13da78eb76af0513de3820418ba2,main,aleexx02,2025-12-10,10,,,ADD in NFTM/Data/ 100 trajectories per viscosity value,0
+Samuel-Chapuis/CS-NFTM-Fork,6b965997e05f13da78eb76af0513de3820418ba2,949ecc59cbd3e7e7dbf1dbfdef3384e4a3c97885;f953ce5625d1ebb806c1f1da465543a4156fd176,main,aleexx02,2025-12-05,13,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,949ecc59cbd3e7e7dbf1dbfdef3384e4a3c97885,2c8b1d44e3617492f16d1b71663f41e2235e864b,main,aleexx02,2025-12-05,13,,,update main.tex,0
+Samuel-Chapuis/CS-NFTM-Fork,f953ce5625d1ebb806c1f1da465543a4156fd176,8cc7f632fdb4467306ebcd879f9efba95726fb22,main,Lucia Fernandez,2025-12-05,12,update,main: brain architecture,,0
+Samuel-Chapuis/CS-NFTM-Fork,8cc7f632fdb4467306ebcd879f9efba95726fb22,5d836fb4b3f880eff4eb5fc0a67ba539e6381751,main,Samuel,2025-12-05,10,fix,dataloading,use diffrent nu values,1
+Samuel-Chapuis/CS-NFTM-Fork,5d836fb4b3f880eff4eb5fc0a67ba539e6381751,03c3ecc5dbf3551a10564dc85f3110026c4100fe;2c8b1d44e3617492f16d1b71663f41e2235e864b,main,Samuel,2025-12-05,9,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,03c3ecc5dbf3551a10564dc85f3110026c4100fe,a3c7d25392669c0911ca5b8970c1e79825411716,main,Samuel,2025-12-05,9,fix,dataloading,test/train set,1
+Samuel-Chapuis/CS-NFTM-Fork,2c8b1d44e3617492f16d1b71663f41e2235e864b,fd42f07607dd52ad5b235df92bf46a1e32535ba0,main,aleexx02,2025-12-04,17,,,update main.tex,0
+Samuel-Chapuis/CS-NFTM-Fork,fd42f07607dd52ad5b235df92bf46a1e32535ba0,0581ff3c4f22f0c8205c5fe9c48fdbb87062d648,main,aleexx02,2025-12-04,17,,,ADD deprecated/Recurrent_CNN_1D_Burgers.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,0581ff3c4f22f0c8205c5fe9c48fdbb87062d648,daf9e65df20e3e271f547bd29800f07997086e2a;a3c7d25392669c0911ca5b8970c1e79825411716,main,aleexx02,2025-12-03,16,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,daf9e65df20e3e271f547bd29800f07997086e2a,ef846972def61987f2b28ec2cc70b95db78f1206,main,aleexx02,2025-12-03,16,,,add report,0
+Samuel-Chapuis/CS-NFTM-Fork,ef846972def61987f2b28ec2cc70b95db78f1206,47e57e11cacf18271117a85e1013b97142afb977,main,aleexx02,2025-12-03,16,,,add report workspace for lattex,0
+Samuel-Chapuis/CS-NFTM-Fork,a3c7d25392669c0911ca5b8970c1e79825411716,500c66732f751fdca7c8893a8734bdc29aa54724,main,Samuel,2025-11-27,13,chore,nftm,changing the rooting of the training loop,1
+Samuel-Chapuis/CS-NFTM-Fork,47e57e11cacf18271117a85e1013b97142afb977,97c94f01c6becb098f5a62927998dda3ecaaaeab;500c66732f751fdca7c8893a8734bdc29aa54724,main,aleexx02,2025-11-27,12,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,97c94f01c6becb098f5a62927998dda3ecaaaeab,c678cece26041d3f665e559a9fd70f37e4e5d1eb,main,aleexx02,2025-11-27,12,,,"UPDATE RNN_burgers_1D.ipynb, training.py and models.py",0
+Samuel-Chapuis/CS-NFTM-Fork,500c66732f751fdca7c8893a8734bdc29aa54724,39119378983e4ce92f3c6489ea7ccde5c92775c8;c678cece26041d3f665e559a9fd70f37e4e5d1eb,main,Samuel,2025-11-27,12,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,39119378983e4ce92f3c6489ea7ccde5c92775c8,2d7dc4db8090fffc6e5c18495a5f75f67ed52409,main,Samuel,2025-11-27,12,feat,model,add the CNN with history,1
+Samuel-Chapuis/CS-NFTM-Fork,c678cece26041d3f665e559a9fd70f37e4e5d1eb,b200efdb97224ebba8fbe195f553f78ffdc43677,main,aleexx02,2025-11-27,12,,,UPDATE RNN_burgers_1D.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,b200efdb97224ebba8fbe195f553f78ffdc43677,73505785e2ff8ad50d2dcceb7cdc56d8e8b60d34;2d7dc4db8090fffc6e5c18495a5f75f67ed52409,main,aleexx02,2025-11-27,11,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,73505785e2ff8ad50d2dcceb7cdc56d8e8b60d34,df1bf9a814e02623db42fc4c53ad1d09539b61e7,main,aleexx02,2025-11-27,11,,,UPDATE CNN_burgers_1D.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,df1bf9a814e02623db42fc4c53ad1d09539b61e7,5d70d2c019a4a7267ec07ad228b0a571b9ef062e,main,aleexx02,2025-11-27,11,,,Update CNN_burgers_1D.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,2d7dc4db8090fffc6e5c18495a5f75f67ed52409,04207e0d1924da82e98bd5660cb891c1852b764c;5d70d2c019a4a7267ec07ad228b0a571b9ef062e,main,Samuel,2025-11-27,10,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,04207e0d1924da82e98bd5660cb891c1852b764c,8a37359faa03003fff2382858d8463df27dc8792,main,Samuel,2025-11-27,10,,,update todo,0
+Samuel-Chapuis/CS-NFTM-Fork,5d70d2c019a4a7267ec07ad228b0a571b9ef062e,f9aa67cecdbb73eef96c6c64a51b7a3f06db09a5,main,aleexx02,2025-11-27,10,,,add CNN_Controller_RollOut model,0
+Samuel-Chapuis/CS-NFTM-Fork,f9aa67cecdbb73eef96c6c64a51b7a3f06db09a5,8814aeeacbd42da11abe65a156d2481a0b6fb20f,main,aleexx02,2025-11-27,10,,,UPDATE CNN_burgers_1D.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,8814aeeacbd42da11abe65a156d2481a0b6fb20f,609ec4258c97a62cfe6b85188ef96c7a60a5e7d2,main,Lucia Fernandez,2025-11-23,13,add,data vis,,0
+Samuel-Chapuis/CS-NFTM-Fork,609ec4258c97a62cfe6b85188ef96c7a60a5e7d2,e519c0f3499f7f9963f6e33b9e50a4080db8edb1;ace1d7b54481954d4085009ecffe63b8da243915,main,aleexx02,2025-11-22,11,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,e519c0f3499f7f9963f6e33b9e50a4080db8edb1,8c341f30945d713646d4324036d63cbe5d0c09bc,main,aleexx02,2025-11-22,11,,,updates in RNN and CNN,0
+Samuel-Chapuis/CS-NFTM-Fork,ace1d7b54481954d4085009ecffe63b8da243915,8c341f30945d713646d4324036d63cbe5d0c09bc,main,Lucia Fernandez,2025-11-21,12,add,data_vis.ipynb,Adding the notebook,0
+Samuel-Chapuis/CS-NFTM-Fork,8c341f30945d713646d4324036d63cbe5d0c09bc,8a37359faa03003fff2382858d8463df27dc8792,main,Lucia Fernandez,2025-11-21,12,add,gen_ns_incomp data,gen_ns_incomp.py,0
+Samuel-Chapuis/CS-NFTM-Fork,8a37359faa03003fff2382858d8463df27dc8792,5a00d4f59d734223f70d40dc32e3d8ed0b944b98,main,Samuel,2025-11-21,9,chore,nftm,Change the location of the sim codes,1
+Samuel-Chapuis/CS-NFTM-Fork,5a00d4f59d734223f70d40dc32e3d8ed0b944b98,10de24db8dcccb2643190663e808571db8330b4d,main,Samuel,2025-11-21,9,fix,developemment,save and load model,1
+Samuel-Chapuis/CS-NFTM-Fork,10de24db8dcccb2643190663e808571db8330b4d,faeaca86572d5633550cb1c8dfd239f035566453,main,Samuel,2025-11-21,8,feat,model,Implement CNN with background and saving option,1
+Samuel-Chapuis/CS-NFTM-Fork,faeaca86572d5633550cb1c8dfd239f035566453,68098ed7c3a7d3cb5c42d49cf49c7a2e8ce5904b,main,Samuel,2025-11-21,7,feat,model,Cnn with background,1
+Samuel-Chapuis/CS-NFTM-Fork,68098ed7c3a7d3cb5c42d49cf49c7a2e8ce5904b,a4b267a5bf07ac6b595d87bf2a9bd03614d5ccce,main,Samuel,2025-11-20,20,refcator,devloppement,names,0
+Samuel-Chapuis/CS-NFTM-Fork,a4b267a5bf07ac6b595d87bf2a9bd03614d5ccce,3690dbfdaddd2ccff049dbcca4b5559a9032fb75,main,Samuel,2025-11-20,20,chore,devloppement,translate comments,1
+Samuel-Chapuis/CS-NFTM-Fork,3690dbfdaddd2ccff049dbcca4b5559a9032fb75,2614f31d55ad23823e3ebd5bb58f108ab5c830b6,main,Samuel,2025-11-20,20,refactor,devlopement,,1
+Samuel-Chapuis/CS-NFTM-Fork,2614f31d55ad23823e3ebd5bb58f108ab5c830b6,965727d1f8fe61d679a760a2c3452c99a3af2ce9;00fcfb29510512eeadaff472a589b18392baba50,main,Samuel,2025-11-20,17,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,965727d1f8fe61d679a760a2c3452c99a3af2ce9,08e8f16108314f7237bfa9f2a7cf30001daa3e8b,main,Samuel,2025-11-20,17,feat,modular,test implementaion,1
+Samuel-Chapuis/CS-NFTM-Fork,00fcfb29510512eeadaff472a589b18392baba50,c5015c42180273b7af6d5a0a10c5aa7e1279a393;08e8f16108314f7237bfa9f2a7cf30001daa3e8b,main,aleexx02,2025-11-20,15,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,c5015c42180273b7af6d5a0a10c5aa7e1279a393,1d8b1bf6f4c66af43b772c7a1d45f6b28f61b7a2,main,aleexx02,2025-11-20,15,,,ADD Dataset 1D Burger Equation,0
+Samuel-Chapuis/CS-NFTM-Fork,08e8f16108314f7237bfa9f2a7cf30001daa3e8b,ba25006fbc444f4f3fa704265763698ad93eddda;1d8b1bf6f4c66af43b772c7a1d45f6b28f61b7a2,main,Samuel,2025-11-20,13,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,ba25006fbc444f4f3fa704265763698ad93eddda,72d6be52a746942142ace4ecbb0ce7e11c318906,main,Samuel,2025-11-20,13,fix,cnn,,1
+Samuel-Chapuis/CS-NFTM-Fork,1d8b1bf6f4c66af43b772c7a1d45f6b28f61b7a2,2eb8c1a601f25a118237e5df173c364b0820e915,main,aleexx02,2025-11-20,13,,,ADD RNN_burgers_1D.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,2eb8c1a601f25a118237e5df173c364b0820e915,96758f27b4d85fddc5a151c23c4a56ca635342d6;72d6be52a746942142ace4ecbb0ce7e11c318906,main,aleexx02,2025-11-20,12,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,96758f27b4d85fddc5a151c23c4a56ca635342d6,d267dafa96bbe03306faea30bf878837d0eba060,main,aleexx02,2025-11-20,12,,,UPDATE CNN_burgers_1D.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,72d6be52a746942142ace4ecbb0ce7e11c318906,e20dc9136a5c886b23e78917cbd92bbbe10ec91f,main,Samuel,2025-11-17,15,chore,burger_sim,make the speed discrete in the generation data,1
+Samuel-Chapuis/CS-NFTM-Fork,e20dc9136a5c886b23e78917cbd92bbbe10ec91f,c33451c386f38d67d586e730535eab8a9ff2cb61,main,Samuel,2025-11-17,13,fix,cnn,"Using train and test set
+-> no notble impact",1
+Samuel-Chapuis/CS-NFTM-Fork,c33451c386f38d67d586e730535eab8a9ff2cb61,946dc6d861468261e6c8c44446770159d45fc86e,main,Samuel,2025-11-17,10,fix,cnn,now trainable on the history weight,1
+Samuel-Chapuis/CS-NFTM-Fork,946dc6d861468261e6c8c44446770159d45fc86e,b6163f7c99fbb93a9f86abb3bc2f8c7b1bf7dbb7,main,Samuel,2025-11-17,10,refactor,cnn,"Big refactor of the code to simplify the folders.
+( I note the olde 1D_CNN as deprecated but havn't supress it if Alex need something inside )",1
+Samuel-Chapuis/CS-NFTM-Fork,b6163f7c99fbb93a9f86abb3bc2f8c7b1bf7dbb7,cf00ac7a46a9af3beb7f5165a4684dc1ec8bcafe;d267dafa96bbe03306faea30bf878837d0eba060,main,Samuel,2025-11-14,7,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,cf00ac7a46a9af3beb7f5165a4684dc1ec8bcafe,0ea817538df9ba960a4154088edf1f1208d3f006,main,Samuel,2025-11-14,7,chore,nftm,Change implemenatation in CNN_1D_Sam,1
+Samuel-Chapuis/CS-NFTM-Fork,d267dafa96bbe03306faea30bf878837d0eba060,c02dd3ac85fdd1ff4cd87d61d07432edaca5c130,main,aleexx02,2025-11-13,14,,,EDIT CNN_burgers_1D.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,c02dd3ac85fdd1ff4cd87d61d07432edaca5c130,1fa0f7f9ad194355f70f85ec6f049f284cdf82d9,main,aleexx02,2025-11-12,15,,,REPORT.tex inside NFTM folder,0
+Samuel-Chapuis/CS-NFTM-Fork,1fa0f7f9ad194355f70f85ec6f049f284cdf82d9,50cc7c9e800a472667afa52dd7e78ba3adb09902;0ea817538df9ba960a4154088edf1f1208d3f006,main,aleexx02,2025-11-08,11,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,50cc7c9e800a472667afa52dd7e78ba3adb09902,10f3580239d7c278b159d18645855b4fd8ac4750,main,aleexx02,2025-11-08,11,edit,cnn_burgers_1d.ipynb,,0
+Samuel-Chapuis/CS-NFTM-Fork,0ea817538df9ba960a4154088edf1f1208d3f006,10f3580239d7c278b159d18645855b4fd8ac4750,main,Samuel,2025-11-06,15,fix,ntfm,Change the epoch and the comments,1
+Samuel-Chapuis/CS-NFTM-Fork,10f3580239d7c278b159d18645855b4fd8ac4750,283f435e9af9ae2cf67894b64bd9441e1960872b;387de62eefeead864ad86461ae2d8937def3bc9b,main,Samuel,2025-11-06,12,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,283f435e9af9ae2cf67894b64bd9441e1960872b,73b5d2adb926ca8e2a0e282b8eefa02169f05994,main,Samuel,2025-11-06,12,feat,cnn,My version of the CNN,1
+Samuel-Chapuis/CS-NFTM-Fork,387de62eefeead864ad86461ae2d8937def3bc9b,cdfd81429372ee6d894db201043757c721bd4107;1d24e725f0ce40e079dcdc3b9df1e90bde8d0e4d,main,aleexx02,2025-11-06,11,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,cdfd81429372ee6d894db201043757c721bd4107,f583c80d09e438782f9d03903b2437f4f72024ac,main,aleexx02,2025-11-06,11,,,edit CNN_burgers_1D.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,1d24e725f0ce40e079dcdc3b9df1e90bde8d0e4d,b3b23e76036e504dc7d5cde58d6cd7788fa96200,main,Lucia Fernandez,2025-11-05,22,add,nftm_for_physic/burger_sim.ipynb,1st draft for Laplace,0
+Samuel-Chapuis/CS-NFTM-Fork,b3b23e76036e504dc7d5cde58d6cd7788fa96200,6b61ec3ff3d1836569bd4de0e0b23c692164f11b,main,Lucia Fernandez,2025-11-05,21,add,burger_laplace.ipynb,1st draft for Laplace,0
+Samuel-Chapuis/CS-NFTM-Fork,6b61ec3ff3d1836569bd4de0e0b23c692164f11b,f583c80d09e438782f9d03903b2437f4f72024ac,main,Lucia Fernandez,2025-11-05,21,edit,state_of_the_art,Edit the query arguments and re-run all the files,0
+Samuel-Chapuis/CS-NFTM-Fork,f583c80d09e438782f9d03903b2437f4f72024ac,c645721d77d7915a8fabe712bf0f492db280fb9e,main,aleexx02,2025-11-05,16,,,edit CNN_burgers_1D.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,c645721d77d7915a8fabe712bf0f492db280fb9e,73b5d2adb926ca8e2a0e282b8eefa02169f05994,main,Lucia Fernandez,2025-11-03,20,add,state_of_the_art/readme.md,Explain the use of the code,0
+Samuel-Chapuis/CS-NFTM-Fork,73b5d2adb926ca8e2a0e282b8eefa02169f05994,26db8a39ae998201c56e559b5b969b6803b5a878,main,Lucia Fernandez,2025-11-03,18,add,state_of_the_art,Retrieve papers from springernature,0
+Samuel-Chapuis/CS-NFTM-Fork,26db8a39ae998201c56e559b5b969b6803b5a878,3dfed62bd7dfec0fc5041576ee72b127710350e1,main,Samuel,2025-10-31,10,chore,burger,change visualisation of the initial conditions,1
+Samuel-Chapuis/CS-NFTM-Fork,3dfed62bd7dfec0fc5041576ee72b127710350e1,2fe4efb6c9a13abb7ad8cb69bfffae709c9df7d1,main,Samuel,2025-10-31,10,chore,burger,change markdown about hte equation in the notebook,1
+Samuel-Chapuis/CS-NFTM-Fork,2fe4efb6c9a13abb7ad8cb69bfffae709c9df7d1,22960343b011554642945123b423e740a775dce3;1bd66403629ecfebd5f7d1c39dad1974d0a0884c,main,Samuel,2025-10-31,9,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,22960343b011554642945123b423e740a775dce3,ebc1ee962fd61a38c6a26f5b5ff3d8406b99e774,main,Samuel,2025-10-31,9,feat,burger,Add a physical simulator for the burger equations,1
+Samuel-Chapuis/CS-NFTM-Fork,1bd66403629ecfebd5f7d1c39dad1974d0a0884c,84efafa91379dd26e5fbbaa0ac542ed8fa2a16de,main,aleexx02,2025-10-30,18,,,edit CNN_burgers_1D.ipynb,0
+Samuel-Chapuis/CS-NFTM-Fork,84efafa91379dd26e5fbbaa0ac542ed8fa2a16de,599b7af34ff88f5b3337fa8c91a5b29e4022e0e5,main,aleexx02,2025-10-30,9,feat,cnn_burgers_1d.ipynb,CNN model for solving 1D Burger Eq,1
+Samuel-Chapuis/CS-NFTM-Fork,599b7af34ff88f5b3337fa8c91a5b29e4022e0e5,aa2dddcd480710a4e04adfc99cd234585568a9c9,main,aleexx02,2025-10-30,9,,,edit 1D_Burger_Eq_Dataset.tex to put all plots of datasets in same slide,0
+Samuel-Chapuis/CS-NFTM-Fork,aa2dddcd480710a4e04adfc99cd234585568a9c9,ebc1ee962fd61a38c6a26f5b5ff3d8406b99e774,main,aleexx02,2025-10-27,11,feat,cnn_burgers.py,inside NFTM-models folder,1
+Samuel-Chapuis/CS-NFTM-Fork,ebc1ee962fd61a38c6a26f5b5ff3d8406b99e774,d20e4ee24177137065cdf7cf76df01a18de44538,main,Samuel,2025-10-24,12,feat,documentation,1D Solver,1
+Samuel-Chapuis/CS-NFTM-Fork,d20e4ee24177137065cdf7cf76df01a18de44538,118614089ad668369dc95d7f91dabbe40c39adf2,main,Samuel,2025-10-24,11,fix,documentation,call to 1d burger eq,1
+Samuel-Chapuis/CS-NFTM-Fork,118614089ad668369dc95d7f91dabbe40c39adf2,0a8761df88c505f66c05a3c77824164d03d50308;6a7eb012dc6a0820bf0a3d474c0a8795ab8ee6e5,main,Samuel,2025-10-24,11,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,0a8761df88c505f66c05a3c77824164d03d50308,8efda8712c98b844d4ff25591b98c3e7c741cb21,main,Samuel,2025-10-24,11,chore,presentation,Moove the images in more specific folders,1
+Samuel-Chapuis/CS-NFTM-Fork,6a7eb012dc6a0820bf0a3d474c0a8795ab8ee6e5,21f34f1f63183998e44bb93ee0b422799d7fbd36,main,aleexx02,2025-10-24,9,,,edit main.tex for new section of datasets,0
+Samuel-Chapuis/CS-NFTM-Fork,21f34f1f63183998e44bb93ee0b422799d7fbd36,dde08b6ecc9a15b4abe148e2dfbedc85bedf4600;8efda8712c98b844d4ff25591b98c3e7c741cb21,main,aleexx02,2025-10-24,9,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,dde08b6ecc9a15b4abe148e2dfbedc85bedf4600,14f262fab7e7886a283dd11334bbe8288ea5fd67,main,aleexx02,2025-10-24,9,,,add section 1D_Burger_Eq_Dataset.tex with datasets for presentation,0
+Samuel-Chapuis/CS-NFTM-Fork,8efda8712c98b844d4ff25591b98c3e7c741cb21,ac753930d6aa2aa77181977d85627779bfcf8841,main,Samuel,2025-10-24,9,fix,1dthermal,plots,1
+Samuel-Chapuis/CS-NFTM-Fork,ac753930d6aa2aa77181977d85627779bfcf8841,cb88e36706da1bc233281b9e9ddcd50e683795f6;14f262fab7e7886a283dd11334bbe8288ea5fd67,main,Samuel,2025-10-24,9,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,cb88e36706da1bc233281b9e9ddcd50e683795f6,41d66e323aec20fd2b7d793ad40628f2599cd140,main,Samuel,2025-10-24,9,feat,1dthermal,NFTM and metrics,1
+Samuel-Chapuis/CS-NFTM-Fork,14f262fab7e7886a283dd11334bbe8288ea5fd67,41d66e323aec20fd2b7d793ad40628f2599cd140,main,aleexx02,2025-10-24,7,,,Added images of 1D Burger Eq dataset to the images folder,0
+Samuel-Chapuis/CS-NFTM-Fork,41d66e323aec20fd2b7d793ad40628f2599cd140,3391179d8e6a8be4be4a5db34b820b01703894f7,main,Samuel,2025-10-23,20,feat,1dthermal,Data generator,1
+Samuel-Chapuis/CS-NFTM-Fork,3391179d8e6a8be4be4a5db34b820b01703894f7,b4fd9127c75f48709cc1c743fc7f2bb00b8b9e79,main,Samuel,2025-10-23,19,feat,1dthermalsolver,,1
+Samuel-Chapuis/CS-NFTM-Fork,b4fd9127c75f48709cc1c743fc7f2bb00b8b9e79,fba7ddf05c4ae94d06c3cdca7149e99d01f11968,main,Samuel,2025-10-17,8,fix,doc,graph page 17,1
+Samuel-Chapuis/CS-NFTM-Fork,fba7ddf05c4ae94d06c3cdca7149e99d01f11968,aaf6e83ddb0a9e58e30420468429c925b3ce5ff4,main,Samuel,2025-10-17,8,fix,doc,1st section name,1
+Samuel-Chapuis/CS-NFTM-Fork,aaf6e83ddb0a9e58e30420468429c925b3ce5ff4,a0a1d16ec443067a2aaa033d6839bcc8124d0f5d,main,Samuel,2025-10-17,8,feat,doc,function to automate the frame's name,1
+Samuel-Chapuis/CS-NFTM-Fork,a0a1d16ec443067a2aaa033d6839bcc8124d0f5d,f390142af0ffae2b24e02d11ef72c8fbec24273b,main,Samuel,2025-10-16,18,fix,doc,remove useless \vfill,1
+Samuel-Chapuis/CS-NFTM-Fork,f390142af0ffae2b24e02d11ef72c8fbec24273b,cd0d23eda13a995bd3a408b2200e9ce060f83262,main,Samuel,2025-10-16,18,fix,doc,remove the hello page made for the alex's test,1
+Samuel-Chapuis/CS-NFTM-Fork,cd0d23eda13a995bd3a408b2200e9ce060f83262,5eb3a74a4051fa5bf6ba7277f089872af42e870f,main,Samuel,2025-10-16,18,refactor,doc,include the presentation17 into main,1
+Samuel-Chapuis/CS-NFTM-Fork,5eb3a74a4051fa5bf6ba7277f089872af42e870f,a610e506828db17c7f64a95596ebd1f28c3eac0a,main,aleexx02,2025-10-16,13,doc,_presentation,Presentation_17_oct.tex,1
+Samuel-Chapuis/CS-NFTM-Fork,a610e506828db17c7f64a95596ebd1f28c3eac0a,eee60ea854821abd0844f9c3890e66349fe2f988,main,aleexx02,2025-10-16,9,doc,17/10 presentation,slide deck,1
+Samuel-Chapuis/CS-NFTM-Fork,eee60ea854821abd0844f9c3890e66349fe2f988,2240723cc9ae608f5a48dd48280f53eef1ad24c3;4539fcc2cc13f7a6be2b2004c098fefcff45d02a,main,Samuel,2025-10-15,15,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,2240723cc9ae608f5a48dd48280f53eef1ad24c3,0045cbf96ab87e4ff353339f50298a106f0528f7,main,Samuel,2025-10-15,15,ci,gitgnore,add the images into the commits to solve the latex issues,1
+Samuel-Chapuis/CS-NFTM-Fork,4539fcc2cc13f7a6be2b2004c098fefcff45d02a,d5ccbf2f0a2473dfed6803adb04c5c75401826e5;0045cbf96ab87e4ff353339f50298a106f0528f7,main,aleexx02,2025-10-15,14,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,d5ccbf2f0a2473dfed6803adb04c5c75401826e5,cdbbeacdf8127815159186ab0294b2466d75b0e4,main,aleexx02,2025-10-15,14,test,github,Alex 2nd merge,1
+Samuel-Chapuis/CS-NFTM-Fork,0045cbf96ab87e4ff353339f50298a106f0528f7,cdbbeacdf8127815159186ab0294b2466d75b0e4,main,Samuel,2025-10-15,14,test,github,Alex 1st merge,1
+Samuel-Chapuis/CS-NFTM-Fork,cdbbeacdf8127815159186ab0294b2466d75b0e4,dcd2cb366c1b822ca7601f9bd50c36c2fcf85c74;c6731d66fad98e0bd950de0a4dc22987980f8b0b,main,aleexx02,2025-10-15,14,,,//github.com/Samuel-Chapuis/NFTM,0
+Samuel-Chapuis/CS-NFTM-Fork,dcd2cb366c1b822ca7601f9bd50c36c2fcf85c74,3ec32202f796bbb76e836dc8d21eb13a7fd2482f,main,aleexx02,2025-10-15,14,,,test alex,0
+Samuel-Chapuis/CS-NFTM-Fork,c6731d66fad98e0bd950de0a4dc22987980f8b0b,3ec32202f796bbb76e836dc8d21eb13a7fd2482f,main,Samuel,2025-10-15,14,doc,commit syntax,add the git syntax file,1
+Samuel-Chapuis/CS-NFTM-Fork,3ec32202f796bbb76e836dc8d21eb13a7fd2482f,a0826ad835b10319d3978080b71cff55b7ec33a3,main,Samuel,2025-10-09,13,docs,ns. hyp,adding NS. hypothesis part,1
+Samuel-Chapuis/CS-NFTM-Fork,a0826ad835b10319d3978080b71cff55b7ec33a3,25e485def8f5aae295e98c252ebdd019f6e28e28,main,Samuel,2025-10-09,10,docs,navierstocks,Add the 1st NS part to the doc,1
+Samuel-Chapuis/CS-NFTM-Fork,25e485def8f5aae295e98c252ebdd019f6e28e28,faaf03cfd71630dc2012983504c2c129a83b0d55,main,Samuel,2025-10-09,10,docs,presentation,add a latex pres,1
+Samuel-Chapuis/CS-NFTM-Fork,faaf03cfd71630dc2012983504c2c129a83b0d55,ab7c9f2249d81fa88226d1cfc5e003c902065c39;12291d3dac72ab15d8c815d8d8f83038c861ee33,main,Akash Malhotra,2025-10-06,16,,,"Merge pull request #16 from akashjorss/codex/organize-inpainting-and-heat-eq-scripts
+
+Organize baseline scripts by pipeline",0
+Samuel-Chapuis/CS-NFTM-Fork,12291d3dac72ab15d8c815d8d8f83038c861ee33,ab7c9f2249d81fa88226d1cfc5e003c902065c39,main,Akash Malhotra,2025-10-06,16,,,Organize baseline scripts by pipeline,0
+Samuel-Chapuis/CS-NFTM-Fork,ab7c9f2249d81fa88226d1cfc5e003c902065c39,b10e0ce8906933fd1236629829c511af5c878770;96116122f9c61819a229e1d0929d003a589fef6a,main,Akash Malhotra,2025-10-06,16,,,"Merge pull request #15 from akashjorss/codex/add-orchestration-for-cnn-and-pinn-training
+
+Add heat baseline orchestration driver",0
+Samuel-Chapuis/CS-NFTM-Fork,96116122f9c61819a229e1d0929d003a589fef6a,b10e0ce8906933fd1236629829c511af5c878770,main,Akash Malhotra,2025-10-06,16,,,Add heat baseline orchestration driver,0
+Samuel-Chapuis/CS-NFTM-Fork,b10e0ce8906933fd1236629829c511af5c878770,223205038321ac8631033d0467929a5f55a71797;8da21344dd9474220772bcd44b9992da6ddb4c41,main,Akash Malhotra,2025-10-06,16,,,"Merge pull request #14 from akashjorss/codex/evaluate-scripts-for-heat-equation
+
+Add evaluation scripts for heat equation baselines",0
+Samuel-Chapuis/CS-NFTM-Fork,8da21344dd9474220772bcd44b9992da6ddb4c41,9bf0070f2238082b1c336704fe6047661f76c55f,main,Akash Malhotra,2025-10-06,16,,,Add heat equation eval scripts,0
+Samuel-Chapuis/CS-NFTM-Fork,223205038321ac8631033d0467929a5f55a71797,9bf0070f2238082b1c336704fe6047661f76c55f;44c22b4636c0188e798b6ad6063235f08c86a8f2,main,Akash Malhotra,2025-10-06,16,,,"Merge pull request #13 from akashjorss/codex/implement-run_all_inpainting.py-script
+
+Add driver to orchestrate NFTM inpainting experiments",0
+Samuel-Chapuis/CS-NFTM-Fork,44c22b4636c0188e798b6ad6063235f08c86a8f2,9bf0070f2238082b1c336704fe6047661f76c55f,main,Akash Malhotra,2025-10-06,15,,,Add driver to orchestrate inpainting experiments,0
+Samuel-Chapuis/CS-NFTM-Fork,9bf0070f2238082b1c336704fe6047661f76c55f,dcb6af2ec21f5f3f55db713b09130fd4f5847ed4;01d0a37fb805c7c182e13127f7052e49987d3d1b,main,Akash Malhotra,2025-10-06,15,,,"Merge pull request #12 from akashjorss/codex/implement-eval_unet.py-for-u-net-evaluation
+
+Add Tiny U-Net evaluation script",0
+Samuel-Chapuis/CS-NFTM-Fork,01d0a37fb805c7c182e13127f7052e49987d3d1b,62bfe5201ab9945317f6030ae2af025d0ceaa60f,main,Akash Malhotra,2025-10-06,15,,,Add Tiny U-Net evaluation script,0
+Samuel-Chapuis/CS-NFTM-Fork,dcb6af2ec21f5f3f55db713b09130fd4f5847ed4,62bfe5201ab9945317f6030ae2af025d0ceaa60f;8ff4a228f9aee4b4b41cec7204224b9f44f157b4,main,Akash Malhotra,2025-10-06,15,,,"Merge pull request #11 from akashjorss/codex/unify-heat-metrics-and-timers
+
+Add shared heat metrics and timing helpers",0
+Samuel-Chapuis/CS-NFTM-Fork,8ff4a228f9aee4b4b41cec7204224b9f44f157b4,62bfe5201ab9945317f6030ae2af025d0ceaa60f,main,Akash Malhotra,2025-10-06,15,,,Add shared heat metrics and timing helpers,0
+Samuel-Chapuis/CS-NFTM-Fork,62bfe5201ab9945317f6030ae2af025d0ceaa60f,8c7f40364604b51976a9c7efe3f233da1f80db0d;a482863705fb2597b04e23771602c2d3c7fa5f77,main,Akash Malhotra,2025-10-06,15,,,"Merge pull request #10 from akashjorss/codex/implement-training-script-for-tiny-u-net
+
+Add Tiny U-Net training script",0
+Samuel-Chapuis/CS-NFTM-Fork,a482863705fb2597b04e23771602c2d3c7fa5f77,e828f5367e7af710b3746c27d07b099559633e6b,main,Akash Malhotra,2025-10-06,15,,,Add Tiny U-Net training script,0
+Samuel-Chapuis/CS-NFTM-Fork,8c7f40364604b51976a9c7efe3f233da1f80db0d,e828f5367e7af710b3746c27d07b099559633e6b;69c8700c31332c6ce964f9aa4c6aa79602685ff5,main,Akash Malhotra,2025-10-06,15,,,"Merge pull request #9 from akashjorss/codex/add-pinn-baseline-implementation
+
+Align PINN alpha baseline with repository simulators",0
+Samuel-Chapuis/CS-NFTM-Fork,69c8700c31332c6ce964f9aa4c6aa79602685ff5,886b96c6eddb9485abff4890478f7fa0c1497e54,main,Akash Malhotra,2025-10-06,15,,,Align PINN baseline with repo heat simulator,0
+Samuel-Chapuis/CS-NFTM-Fork,e828f5367e7af710b3746c27d07b099559633e6b,68b7c0e4b0c49fbf05bf1c00ccbc65285abcebce;8cc8ca7d14c72f66953d4090bc099e7a25a4cec6,main,Akash Malhotra,2025-10-06,15,,,"Merge pull request #7 from akashjorss/codex/implement-classic-pinn-with-matched-params
+
+Add PINN MLP baseline script",0
+Samuel-Chapuis/CS-NFTM-Fork,8cc8ca7d14c72f66953d4090bc099e7a25a4cec6,886b96c6eddb9485abff4890478f7fa0c1497e54,main,Akash Malhotra,2025-10-06,15,,,Add PINN MLP baseline script,0
+Samuel-Chapuis/CS-NFTM-Fork,68b7c0e4b0c49fbf05bf1c00ccbc65285abcebce,ebbc6b00ad3c5d524c198a151691209fce537881;ea203155ab3ae0748d1bb984c6431892ecfe39f2,main,Akash Malhotra,2025-10-06,15,,,"Merge pull request #6 from akashjorss/codex/add-residual-cnn-stepper-for-heat-eq
+
+Add residual CNN baseline trainer for heat equation",0
+Samuel-Chapuis/CS-NFTM-Fork,ea203155ab3ae0748d1bb984c6431892ecfe39f2,886b96c6eddb9485abff4890478f7fa0c1497e54,main,Akash Malhotra,2025-10-06,15,,,Add residual CNN baseline trainer for heat equation,0
+Samuel-Chapuis/CS-NFTM-Fork,ebbc6b00ad3c5d524c198a151691209fce537881,ff91d32bf464ff86ab365538c1720d5b5ff34520;78bc7252eb3dc9a9052595b67c294abdc422cf77,main,Akash Malhotra,2025-10-06,15,,,"Merge pull request #5 from akashjorss/codex/implement-tv-l1-inpainting-baseline
+
+Add TV-L1 inpainting baseline",0
+Samuel-Chapuis/CS-NFTM-Fork,78bc7252eb3dc9a9052595b67c294abdc422cf77,886b96c6eddb9485abff4890478f7fa0c1497e54,main,Akash Malhotra,2025-10-06,15,,,Add TV-L1 inpainting baseline,0
+Samuel-Chapuis/CS-NFTM-Fork,ff91d32bf464ff86ab365538c1720d5b5ff34520,8e28c92584dc99666649cbd6fb4a88bb7b37f115;6ef0680a4ffe8e0bc1296406c4e18552feccc089,main,Akash Malhotra,2025-10-06,15,,,"Merge pull request #4 from akashjorss/codex/implement-tiny-u-net-model
+
+Add capacity-matched tiny U-Net baseline",0
+Samuel-Chapuis/CS-NFTM-Fork,6ef0680a4ffe8e0bc1296406c4e18552feccc089,886b96c6eddb9485abff4890478f7fa0c1497e54,main,Akash Malhotra,2025-10-06,15,,,Add tiny U-Net model for inpainting,0
+Samuel-Chapuis/CS-NFTM-Fork,8e28c92584dc99666649cbd6fb4a88bb7b37f115,886b96c6eddb9485abff4890478f7fa0c1497e54;27f4d6fd55275c1f4c91ac654a2aabfd892a2dad,main,Akash Malhotra,2025-10-06,15,,,"Merge pull request #3 from akashjorss/codex/implement-metrics.py-for-psnr,-ssim,-lpips
+
+Add standalone image metrics utilities",0
+Samuel-Chapuis/CS-NFTM-Fork,27f4d6fd55275c1f4c91ac654a2aabfd892a2dad,886b96c6eddb9485abff4890478f7fa0c1497e54,main,Akash Malhotra,2025-10-06,15,,,Add image quality metrics helper module,0
+Samuel-Chapuis/CS-NFTM-Fork,886b96c6eddb9485abff4890478f7fa0c1497e54,bae2010ed2bce7f8ac82b30d15216bb80382e0e0,main,Akash Malhotra,2025-10-02,23,,,Update README.md,0
+Samuel-Chapuis/CS-NFTM-Fork,bae2010ed2bce7f8ac82b30d15216bb80382e0e0,cbf33f727fc08523f1b3cb94780f4facef120ada;6b5356089502d725855b72cd91c06d1b85046a6e,main,Akash Malhotra,2025-10-02,23,,,"Merge pull request #2 from akashjorss/codex/create-requirements.txt-for-cuda-and-non-cuda
+
+Add CPU and CUDA requirements files",0
+Samuel-Chapuis/CS-NFTM-Fork,6b5356089502d725855b72cd91c06d1b85046a6e,cbf33f727fc08523f1b3cb94780f4facef120ada,main,Akash Malhotra,2025-10-02,23,,,Add CPU and CUDA requirements files,0
+Samuel-Chapuis/CS-NFTM-Fork,cbf33f727fc08523f1b3cb94780f4facef120ada,52e47a17c51f3f9f83021b88138ea3b8911bde84,main,Akash Malhotra,2025-08-28,16,,,beyond training horizons in variable alpha mode,0
+Samuel-Chapuis/CS-NFTM-Fork,52e47a17c51f3f9f83021b88138ea3b8911bde84,d8629d100bb40bd505bab5aedc77a790641347d2;028f68c1ebd133e2f76ab8ab183f85f794f92ab3,main,Akash Malhotra,2025-08-27,20,,,"Merge pull request #1 from akashjorss/codex/create-detailed-readme-with-script-instructions
+
+Add detailed README with usage instructions",0
+Samuel-Chapuis/CS-NFTM-Fork,028f68c1ebd133e2f76ab8ab183f85f794f92ab3,d8629d100bb40bd505bab5aedc77a790641347d2,main,Akash Malhotra,2025-08-27,20,,,Document ablation runner,0
+Samuel-Chapuis/CS-NFTM-Fork,d8629d100bb40bd505bab5aedc77a790641347d2,,main,Akash Malhotra,2025-08-27,20,,,Initial commit,0
+Samuel-Chapuis/ML_Differential_Solver,ec36899542381659c01a0f3bf82fbed1492d2510,88a243e4a7b18d8a2dabfd35dbf99ab2ecd096ed,main,Samuel,2026-01-29,14,,,error pres change,0
+Samuel-Chapuis/ML_Differential_Solver,88a243e4a7b18d8a2dabfd35dbf99ab2ecd096ed,066596e9fbcd9bc8f2b2bbb8283a26329900880d;db4f1f4568f1c5b2fe9df0717297f862f814d159,main,Samuel,2026-01-29,14,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,066596e9fbcd9bc8f2b2bbb8283a26329900880d,ad4bf93dde9672f479ddd741bebbfa1915483368,main,Samuel,2026-01-29,14,,,woriking 2D pipeline,0
+Samuel-Chapuis/ML_Differential_Solver,db4f1f4568f1c5b2fe9df0717297f862f814d159,00851e294e22fa85213cd68370e2d4806516c6c7,main,aleexx02,2026-01-29,11,,,generating more samples from new_dataset and test model with this samples,0
+Samuel-Chapuis/ML_Differential_Solver,00851e294e22fa85213cd68370e2d4806516c6c7,ad4bf93dde9672f479ddd741bebbfa1915483368,main,Lucia Fernandez,2026-01-29,1,,,Deliveries + Feedback questions,0
+Samuel-Chapuis/ML_Differential_Solver,ad4bf93dde9672f479ddd741bebbfa1915483368,687671c661fd95d565fa7754d36ae5ae2066218e;f47f89c68d960d70825cd5c8db2fcb5d35abff44,main,Samuel,2026-01-22,10,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,687671c661fd95d565fa7754d36ae5ae2066218e,c2a7a5ea0b96d381ad150fbc8e7ece6667543c1b,main,Samuel,2026-01-22,10,feat,burger,3d burger simulator,1
+Samuel-Chapuis/ML_Differential_Solver,f47f89c68d960d70825cd5c8db2fcb5d35abff44,32c1b0df86dec0e79c7eb24892e59fd33e00185f,main,aleexx02,2026-01-19,10,,,edit main.ipynb,0
+Samuel-Chapuis/ML_Differential_Solver,32c1b0df86dec0e79c7eb24892e59fd33e00185f,b14d3db776b79164006519a45cedd59214762fad;c2a7a5ea0b96d381ad150fbc8e7ece6667543c1b,main,aleexx02,2026-01-19,10,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,b14d3db776b79164006519a45cedd59214762fad,e0887393a60adc27ba0b00d5eedaa1a5044f143d,main,aleexx02,2026-01-19,10,,,add new dataset in 'saved_datasets' folder and code for visualizing it in the main.ipynb,0
+Samuel-Chapuis/ML_Differential_Solver,c2a7a5ea0b96d381ad150fbc8e7ece6667543c1b,15496e2a5657fd4803e011e77328936cb02c1263,main,Samuel,2026-01-14,18,chore,dataset,link to dataset,1
+Samuel-Chapuis/ML_Differential_Solver,15496e2a5657fd4803e011e77328936cb02c1263,1594235e07f02d65f95ed78362f47251d03fded4,main,Samuel,2026-01-14,17,chore,dataset,ensure no datset are still push,1
+Samuel-Chapuis/ML_Differential_Solver,1594235e07f02d65f95ed78362f47251d03fded4,d9bf0123d25d68068380ed2291690065c5124b6a,main,Samuel,2026-01-14,17,chore,results,clarifiy resluts,1
+Samuel-Chapuis/ML_Differential_Solver,d9bf0123d25d68068380ed2291690065c5124b6a,dc71e6258f1c2014896a21b387ddd5b01ec24501;e0887393a60adc27ba0b00d5eedaa1a5044f143d,main,Samuel,2026-01-14,17,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,dc71e6258f1c2014896a21b387ddd5b01ec24501,276e854b67ec4bb748bb1171917fca407420b2fb,main,Samuel,2026-01-14,17,chore,dataset,remove the dataset from git commitment,1
+Samuel-Chapuis/ML_Differential_Solver,e0887393a60adc27ba0b00d5eedaa1a5044f143d,b3feb5efceace63693910a22d99ce171ec3cd024;276e854b67ec4bb748bb1171917fca407420b2fb,main,aleexx02,2026-01-14,16,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,b3feb5efceace63693910a22d99ce171ec3cd024,293090154ee90aeaad9933a9276c2b5bc945dd60,main,aleexx02,2026-01-14,16,,,add main.py COPY for adding new dataset,0
+Samuel-Chapuis/ML_Differential_Solver,276e854b67ec4bb748bb1171917fca407420b2fb,a045105874181afd797a2ede9a7ff83dd54f98e9,main,Samuel,2026-01-14,14,,,nu05,0
+Samuel-Chapuis/ML_Differential_Solver,a045105874181afd797a2ede9a7ff83dd54f98e9,42b12367b42ce4b48467ba4f0d705ea33fd3006c,main,Samuel,2026-01-14,14,,,nu0 correction,0
+Samuel-Chapuis/ML_Differential_Solver,42b12367b42ce4b48467ba4f0d705ea33fd3006c,97db6369800cd29988872799e6af19ca54b6db82,main,Samuel,2026-01-08,15,feat,nu05,Stand alone,1
+Samuel-Chapuis/ML_Differential_Solver,97db6369800cd29988872799e6af19ca54b6db82,199f9428e9fd672135cd0e64786123d319bc3986;293090154ee90aeaad9933a9276c2b5bc945dd60,main,Samuel,2026-01-08,14,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,199f9428e9fd672135cd0e64786123d319bc3986,87b97e1a5a0f622f8deea25de0ce53b65c6124bd,main,Samuel,2026-01-08,14,feat,nu05,all,1
+Samuel-Chapuis/ML_Differential_Solver,293090154ee90aeaad9933a9276c2b5bc945dd60,ee093606995331c5c33eff764099c5a5e78c0a64,main,aleexx02,2025-12-16,22,,,update chapter4.tex,0
+Samuel-Chapuis/ML_Differential_Solver,ee093606995331c5c33eff764099c5a5e78c0a64,e1d6f02dc3c813b73f4d660e260e57f83180c14a,main,aleexx02,2025-12-16,22,,,update chapter4.tex,0
+Samuel-Chapuis/ML_Differential_Solver,e1d6f02dc3c813b73f4d660e260e57f83180c14a,87b97e1a5a0f622f8deea25de0ce53b65c6124bd,main,aleexx02,2025-12-16,21,,,update  chapter4.tex,0
+Samuel-Chapuis/ML_Differential_Solver,87b97e1a5a0f622f8deea25de0ce53b65c6124bd,bc59443f5232a4488a55680ddfc20dd6a4fd2daa;c5a951ce782a88cd8f0d0b3bed253d890c36deeb,main,aleexx02,2025-12-16,12,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,bc59443f5232a4488a55680ddfc20dd6a4fd2daa,0b8edc7dfaac849fce34a2702792453896b9dcf7,main,aleexx02,2025-12-16,12,,,update presentation,0
+Samuel-Chapuis/ML_Differential_Solver,c5a951ce782a88cd8f0d0b3bed253d890c36deeb,5824201ef674aca389709bbbbf4f68c18e7d78c6,main,Lucia Fernandez,2025-12-16,12,update,my section,,0
+Samuel-Chapuis/ML_Differential_Solver,0b8edc7dfaac849fce34a2702792453896b9dcf7,7e1803d14ecdee4edffde7c61e529068f1ab257d;5824201ef674aca389709bbbbf4f68c18e7d78c6,main,aleexx02,2025-12-16,12,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,7e1803d14ecdee4edffde7c61e529068f1ab257d,b1d5b0b3369821f15d21e88f82a56edba25afe79,main,aleexx02,2025-12-16,12,,,update TCAN_model.tex,0
+Samuel-Chapuis/ML_Differential_Solver,5824201ef674aca389709bbbbf4f68c18e7d78c6,81191af6a77651482368816512bcd2a912470c3a;b57e47d2f35e71373763291aee4f1743e0226314,main,Samuel,2025-12-16,12,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,81191af6a77651482368816512bcd2a912470c3a,32d9906b4e630a024638c96695dea01525af9d6d,main,Samuel,2025-12-16,12,feat,report,dataset,1
+Samuel-Chapuis/ML_Differential_Solver,b57e47d2f35e71373763291aee4f1743e0226314,32d9906b4e630a024638c96695dea01525af9d6d,main,Lucia Fernandez,2025-12-16,12,update,my section,,0
+Samuel-Chapuis/ML_Differential_Solver,32d9906b4e630a024638c96695dea01525af9d6d,8272ea73faa94b45842a2742a4ad9dec9d2d90c7,main,Samuel,2025-12-16,11,feat,report,transformers,1
+Samuel-Chapuis/ML_Differential_Solver,8272ea73faa94b45842a2742a4ad9dec9d2d90c7,085709154663575a4a55cb6690ed05269412452e,main,Lucia Fernandez,2025-12-16,11,update,report,,0
+Samuel-Chapuis/ML_Differential_Solver,085709154663575a4a55cb6690ed05269412452e,3fc2826802c029a8acf352ee6e13d8abd3834c0c,main,Lucia Fernandez,2025-12-16,11,update,readme,,0
+Samuel-Chapuis/ML_Differential_Solver,3fc2826802c029a8acf352ee6e13d8abd3834c0c,b1d5b0b3369821f15d21e88f82a56edba25afe79,main,Samuel,2025-12-16,10,fix,pres,Transformers,1
+Samuel-Chapuis/ML_Differential_Solver,b1d5b0b3369821f15d21e88f82a56edba25afe79,cd05b5f104852f41cb8802dc51a0544eb8511b1e;84524be2d653188ca66ef1d3cf916ea59c2f468d,main,aleexx02,2025-12-16,10,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,cd05b5f104852f41cb8802dc51a0544eb8511b1e,9d74d70e4f09939f7357090d2323486a5d9602a9,main,aleexx02,2025-12-16,10,,,EDIT main.tex,0
+Samuel-Chapuis/ML_Differential_Solver,84524be2d653188ca66ef1d3cf916ea59c2f468d,9d74d70e4f09939f7357090d2323486a5d9602a9,main,Lucia Fernandez,2025-12-16,9,edit,readme,,0
+Samuel-Chapuis/ML_Differential_Solver,9d74d70e4f09939f7357090d2323486a5d9602a9,22f12b2ae7bb38e546814e8eabe2e57266f97fbe;3053df0cc51792383b0b07cb1d8e1c93e8da4ae1,main,aleexx02,2025-12-16,8,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,22f12b2ae7bb38e546814e8eabe2e57266f97fbe,f8262b4bf23c186311de1a4a0b3fe3541943586f,main,aleexx02,2025-12-16,8,,,edit report,0
+Samuel-Chapuis/ML_Differential_Solver,3053df0cc51792383b0b07cb1d8e1c93e8da4ae1,336491b38623fec6fd51765cb2d545a0fe826b74,main,Lucia Fernandez,2025-12-16,7,update,edit report,,0
+Samuel-Chapuis/ML_Differential_Solver,336491b38623fec6fd51765cb2d545a0fe826b74,486e9bc1f7faf8ffcd7a2f0dfb67adc09bdf10c5,main,Lucia Fernandez,2025-12-16,6,add,readme,,0
+Samuel-Chapuis/ML_Differential_Solver,486e9bc1f7faf8ffcd7a2f0dfb67adc09bdf10c5,ef55323bda8f18b1d425a0e56634b02c83f183f1;75653ff7547338945eed51171d9510603d34ae96,main,Samuel,2025-12-16,0,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,ef55323bda8f18b1d425a0e56634b02c83f183f1,6d162bd933c82bff64aa4d4d6c7602ccb4554bcd,main,Samuel,2025-12-15,23,feat,pres,transformer part,1
+Samuel-Chapuis/ML_Differential_Solver,75653ff7547338945eed51171d9510603d34ae96,f8262b4bf23c186311de1a4a0b3fe3541943586f,main,Lucia Fernandez,2025-12-15,23,update,edit chapter 2,,0
+Samuel-Chapuis/ML_Differential_Solver,f8262b4bf23c186311de1a4a0b3fe3541943586f,db46d5b21bdd08ac1dae58c9a72f80117085fdce,main,aleexx02,2025-12-15,21,,,UPDATE CHAPTER4.TEX,0
+Samuel-Chapuis/ML_Differential_Solver,db46d5b21bdd08ac1dae58c9a72f80117085fdce,c065ed26a92e05a62521cee51ceb131460c7037b,main,aleexx02,2025-12-15,21,,,update chapter4.tex,0
+Samuel-Chapuis/ML_Differential_Solver,c065ed26a92e05a62521cee51ceb131460c7037b,67b36525633d1ce212d34288faf32d13932a043c,main,aleexx02,2025-12-15,21,,,UPDATE CHAPTER4.TEX,0
+Samuel-Chapuis/ML_Differential_Solver,67b36525633d1ce212d34288faf32d13932a043c,d2068ea75a63c25565de8fbffe67b2915baec365;6d162bd933c82bff64aa4d4d6c7602ccb4554bcd,main,aleexx02,2025-12-15,16,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,d2068ea75a63c25565de8fbffe67b2915baec365,e7c73ae0c5016913fa8ba79aaf22dacf26f0ca64,main,aleexx02,2025-12-15,16,,,UPDATE chapter4.tex,0
+Samuel-Chapuis/ML_Differential_Solver,6d162bd933c82bff64aa4d4d6c7602ccb4554bcd,f34f62e7641fa3bd71b32990a19e5c59a8a89a60,main,Samuel,2025-12-15,13,,,merge,0
+Samuel-Chapuis/ML_Differential_Solver,f34f62e7641fa3bd71b32990a19e5c59a8a89a60,222c7d32e44931d2020358a4a7bcc635ec39de0b;e7c73ae0c5016913fa8ba79aaf22dacf26f0ca64,main,Samuel,2025-12-15,13,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,222c7d32e44931d2020358a4a7bcc635ec39de0b,0707b83ab85dd2c596aa62d17bc695f214d60274,main,Samuel,2025-12-15,13,fix,tex,introduciton,1
+Samuel-Chapuis/ML_Differential_Solver,e7c73ae0c5016913fa8ba79aaf22dacf26f0ca64,202784932932705890ca71370973154957274365,main,Lucia Fernandez,2025-12-15,13,update,bilbiography,,0
+Samuel-Chapuis/ML_Differential_Solver,202784932932705890ca71370973154957274365,9805e730e9e9b3964e7be49dfd885a345d8a76f6;0707b83ab85dd2c596aa62d17bc695f214d60274,main,aleexx02,2025-12-15,13,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,9805e730e9e9b3964e7be49dfd885a345d8a76f6,d3bb55325ba035ee152e3669b1ac27c4f39c287a,main,aleexx02,2025-12-15,13,,,update chapter5.tex,0
+Samuel-Chapuis/ML_Differential_Solver,0707b83ab85dd2c596aa62d17bc695f214d60274,d3bb55325ba035ee152e3669b1ac27c4f39c287a,main,Samuel,2025-12-15,13,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,d3bb55325ba035ee152e3669b1ac27c4f39c287a,03800cfaa69d84a592bd5b9ab42de9d37cb9e859;f3ca4fb005ef9755c588cfc13508bb297510b2ca,main,aleexx02,2025-12-15,11,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,03800cfaa69d84a592bd5b9ab42de9d37cb9e859,c2a6f547d9710e6a09a625430c7024dd122f0a35,main,aleexx02,2025-12-15,11,,,UPDATE Chapter5.tex,0
+Samuel-Chapuis/ML_Differential_Solver,f3ca4fb005ef9755c588cfc13508bb297510b2ca,c2a6f547d9710e6a09a625430c7024dd122f0a35,main,Samuel,2025-12-15,10,chore,tex,remove build files,1
+Samuel-Chapuis/ML_Differential_Solver,c2a6f547d9710e6a09a625430c7024dd122f0a35,65929c5b200e83bebd566bdb483107d5be755344;bb4d1c2baf3bab6486a2cda72f68d878da7325c7,main,aleexx02,2025-12-15,8,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,65929c5b200e83bebd566bdb483107d5be755344,dd1f5dd8b9cdcf0fe87570b0a7b39e415f2939bf,main,aleexx02,2025-12-15,8,,,adding samples and updating code,0
+Samuel-Chapuis/ML_Differential_Solver,bb4d1c2baf3bab6486a2cda72f68d878da7325c7,cc431761061938f6356149293748d9472ae4cee0;0986d73d4542b482b274cafed3f190af6b7bbcdf,main,Samuel,2025-12-14,21,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,cc431761061938f6356149293748d9472ae4cee0,ea7ecef8be77a102fdb03afac1a0cba77d74775a,main,Samuel,2025-12-14,21,doc,images,diffrence between normal and my dataset,1
+Samuel-Chapuis/ML_Differential_Solver,0986d73d4542b482b274cafed3f190af6b7bbcdf,d34cabaa85b651e355b03e62b3b56ccb9f4d3908,main,Lucia Fernandez,2025-12-14,20,add,related work papers,These are the papers given by Akash.,0
+Samuel-Chapuis/ML_Differential_Solver,d34cabaa85b651e355b03e62b3b56ccb9f4d3908,2280380bdb3b5e522b55838901ce87fa0f9ba06b,main,Lucia Fernandez,2025-12-14,20,update,methodology report,,0
+Samuel-Chapuis/ML_Differential_Solver,2280380bdb3b5e522b55838901ce87fa0f9ba06b,dd1f5dd8b9cdcf0fe87570b0a7b39e415f2939bf,main,Lucia Fernandez,2025-12-14,19,update,introduction report,,0
+Samuel-Chapuis/ML_Differential_Solver,dd1f5dd8b9cdcf0fe87570b0a7b39e415f2939bf,b606fb49bd99c3bc7a94d8ddbcc17b6eccde1b0f,main,aleexx02,2025-12-14,15,,,update burgers_minimal_Akash.py,0
+Samuel-Chapuis/ML_Differential_Solver,b606fb49bd99c3bc7a94d8ddbcc17b6eccde1b0f,88802960ee9605568fa6c9577ef3e9dc9716ac7f,main,aleexx02,2025-12-14,14,,,updates,0
+Samuel-Chapuis/ML_Differential_Solver,88802960ee9605568fa6c9577ef3e9dc9716ac7f,9e47612e632476fa97961684ec285b4f20879497;ec74c82e5ea56bc7f93f7e67185e45c57dd21341,main,aleexx02,2025-12-14,13,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,9e47612e632476fa97961684ec285b4f20879497,36b7f1ca202dbac8245314137a85e4e077080b08,main,aleexx02,2025-12-14,13,,,ADD Akash model for burgers_1D and added more samples to dataset,0
+Samuel-Chapuis/ML_Differential_Solver,ec74c82e5ea56bc7f93f7e67185e45c57dd21341,36b7f1ca202dbac8245314137a85e4e077080b08,main,Lucia Fernandez,2025-12-14,12,add,report skeleton,,0
+Samuel-Chapuis/ML_Differential_Solver,36b7f1ca202dbac8245314137a85e4e077080b08,6e35248aeb2635412420e95cd94151dbb7383321;ea7ecef8be77a102fdb03afac1a0cba77d74775a,main,aleexx02,2025-12-12,13,,,//github.com/Samuel-Chapuis/ML_Differential_Solver,0
+Samuel-Chapuis/ML_Differential_Solver,6e35248aeb2635412420e95cd94151dbb7383321,c8ab243fb489fb9b43aefeb0a8f3c2a47bb03e10,main,aleexx02,2025-12-12,12,,,ADD Data Folder,0
+Samuel-Chapuis/ML_Differential_Solver,ea7ecef8be77a102fdb03afac1a0cba77d74775a,42bc1000e418bec011618e654f0584e5ab6da513,main,Samuel,2025-12-12,9,feat,dataset,Add the burger dataset,1
+Samuel-Chapuis/ML_Differential_Solver,c8ab243fb489fb9b43aefeb0a8f3c2a47bb03e10,42bc1000e418bec011618e654f0584e5ab6da513,main,aleexx02,2025-12-12,8,,,ADD Report in Documentation folder,0
+Samuel-Chapuis/ML_Differential_Solver,42bc1000e418bec011618e654f0584e5ab6da513,,main,Samuel,2025-12-12,8,,,first commit,0

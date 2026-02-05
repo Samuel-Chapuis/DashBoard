@@ -1,0 +1,344 @@
+:root {
+  --bg: #0b0f14;
+  --panel: #0f1620;
+  --text: #d8dee9;
+  --muted: #9aa7b2;
+  --grid: #1a2633;
+}
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  background: var(--bg);
+  color: var(--text);
+}
+header {
+  padding: 16px;
+  border-bottom: 1px solid var(--grid);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.headerTitle {
+  margin-left: auto;
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 600;
+  text-align: right;
+}
+.controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.controls label {
+  font-size: 13px;
+  color: var(--muted);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background: var(--panel);
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--grid);
+}
+.controls input[type="text"]{
+  width: 220px;
+  background: transparent;
+  border: 1px solid var(--grid);
+  border-radius: 8px;
+  padding: 6px 8px;
+  color: var(--text);
+  outline: none;
+}
+.wrap {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 16px;
+}
+.full {
+  grid-column: 1 / -1;
+}
+
+.rawSample {
+  margin-top: 10px;
+}
+
+.rawTableWrap {
+  overflow: auto;
+  max-height: 220px;
+  border: 1px solid #1f2a37;
+  border-radius: 10px;
+}
+
+.rawTable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px;
+  font-size: 12px;
+}
+
+.rawTable thead th {
+  position: sticky;
+  top: 0;
+  background: #0f172a;
+  color: #cbd5e1;
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid #1f2a37;
+  font-weight: 600;
+}
+
+.rawTable tbody td {
+  color: #9aa7b2;
+  padding: 7px 10px;
+  border-bottom: 1px solid #17202b;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 220px;
+}
+
+.rawTable tbody tr:nth-child(even) td {
+  background: rgba(15, 23, 42, 0.35);
+}
+.left, .right, .bottom {
+  background: var(--panel);
+  border: 1px solid var(--grid);
+  border-radius: 14px;
+  padding: 14px;
+}
+.right {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 12px;
+}
+.bottom {
+  grid-column: 1 / -1;
+}
+
+/* 3 rows (one person per row) */
+.people{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  max-height: calc(100vh - 260px);
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+/* 1 row = 3 columns: profile | heatmap | pie chart */
+.person{
+  border: 1px solid var(--grid);
+  border-radius: 12px;
+  padding: 12px;
+  background: #0c131b;
+
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-areas:
+    "profile pie"
+    "heat pie";
+  gap: 12px;
+  align-items: start;
+}
+
+/* profile block (avatar + text) */
+.person .profileCol{
+  display: grid;
+  grid-template-columns: 78px 1fr;
+  gap: 12px;
+  align-items: start;
+  grid-area: profile;
+}
+
+.person .heatCard{ grid-area: heat; }
+.person .pieCard{ grid-area: pie; }
+
+/* minirow no longer needs to exist in two columns */
+.minirow{
+  margin-top: 0;
+  display: block;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  background: #111a24;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: var(--text);
+}
+.avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pmeta h3 { margin: 0 0 6px 0; font-size: 14px; }
+.hint { margin: 0; color: var(--muted); font-size: 12px; }
+.minirow {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.card {
+  border: 1px solid var(--grid);
+  border-radius: 12px;
+  background: #0b121a;
+  padding: 10px;
+}
+.card h4 {
+  margin: 0 0 8px 0;
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.sectionTitle {
+  margin: 0 0 10px 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* The project chart card takes the available height in .right */
+#projectChart {
+  width: 100%;
+  height: 100%;
+}
+
+/* Give height to the card that contains the SVG */
+.right .card {
+  height: 100%;
+}
+
+/* Set a minimum height so it stays visible */
+.right {
+  min-height: 520px;
+}
+
+#projectChart, #scatter {
+  height: 100% !important;
+}
+
+#commitsPerDayChart {
+  width: 100%;
+  height: 100%;
+  max-height: calc(100vh - 260px);
+}
+
+.right .card {
+  height: auto;
+}
+
+#repoGraphs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  max-height: calc(100vh - 260px);
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+svg { width: 100%; height: auto; display: block; }
+.axis text { fill: var(--muted); font-size: 11px; }
+.axis path, .axis line { stroke: var(--grid); }
+.legend { display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--grid);
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #0b121a;
+  font-size: 12px;
+  color: var(--muted);
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 99px;
+  background: white;
+}
+
+.empty {
+  color: var(--muted);
+  font-size: 13px;
+  padding: 8px 0;
+}
+
+.dropRow{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  align-items:stretch;
+}
+
+.dropzone{
+  min-width: 220px;
+  background: var(--panel);
+  border: 1px dashed var(--grid);
+  border-radius: 12px;
+  padding: 6px 10px;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dropzone:hover{
+  border-color: #2b3a4a;
+}
+
+.dropzone.dragover{
+  border-color: #ffffff;
+  background: #0b121a;
+}
+
+.dropzone .muted{
+  margin-top: 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.dropzone .filename{
+  margin-top: 0;
+  font-size: 12px;
+  color: var(--text);
+  opacity: 0.9;
+  word-break: break-all;
+}
+
+.imgzone{
+  min-width: 220px;
+}
+
+/* Themed scrollbars */
+* {
+  scrollbar-color: #2b3a4a #0b121a;
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #0b121a;
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #2b3a4a;
+  border-radius: 8px;
+  border: 2px solid #0b121a;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #3b4a5a;
+}
